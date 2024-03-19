@@ -1,0 +1,226 @@
+{
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "container.id",
+            "value": {
+              "intValue": 0,
+              "stringValue": "397b6a59634704e99e80671444cc8fe01d01deae0ff425eb575cb8462dc96c0e"
+            }
+          },
+          {
+            "key": "host.arch",
+            "value": {
+              "intValue": 0,
+              "stringValue": "amd64"
+            }
+          },
+          {
+            "key": "host.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3-c9787c4c6-pgjtx"
+            }
+          },
+          {
+            "key": "k8s.container.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3"
+            }
+          },
+          {
+            "key": "k8s.deployment.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3"
+            }
+          },
+          {
+            "key": "k8s.namespace.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "observai-main"
+            }
+          },
+          {
+            "key": "k8s.node.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "zagaocp-us-sno"
+            }
+          },
+          {
+            "key": "k8s.pod.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3-c9787c4c6-pgjtx"
+            }
+          },
+          {
+            "key": "k8s.replicaset.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3-c9787c4c6"
+            }
+          },
+          {
+            "key": "os.description",
+            "value": {
+              "intValue": 0,
+              "stringValue": "Linux 5.14.0-284.48.1.el9_2.x86_64"
+            }
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "intValue": 0,
+              "stringValue": "linux"
+            }
+          },
+          {
+            "key": "process.command_args",
+            "value": {
+              "arrayValue": {
+                "values": [
+                  {
+                    "intValue": 0,
+                    "stringValue": "/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64/bin/java"
+                  },
+                  {
+                    "intValue": 0,
+                    "stringValue": "-jar"
+                  },
+                  {
+                    "intValue": 0,
+                    "stringValue": "app.jar"
+                  }
+                ]
+              },
+              "intValue": 0
+            }
+          },
+          {
+            "key": "process.executable.path",
+            "value": {
+              "intValue": 0,
+              "stringValue": "/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64/bin/java"
+            }
+          },
+          {
+            "key": "process.pid",
+            "value": {
+              "intValue": 1
+            }
+          },
+          {
+            "key": "process.runtime.description",
+            "value": {
+              "intValue": 0,
+              "stringValue": "Red Hat, Inc. OpenJDK 64-Bit Server VM 11.0.18+10-LTS"
+            }
+          },
+          {
+            "key": "process.runtime.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "OpenJDK Runtime Environment"
+            }
+          },
+          {
+            "key": "process.runtime.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "11.0.18+10-LTS"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "vendor-srv-3"
+            }
+          },
+          {
+            "key": "telemetry.distro.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "opentelemetry-java-instrumentation"
+            }
+          },
+          {
+            "key": "telemetry.distro.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "2.1.0"
+            }
+          },
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "intValue": 0,
+              "stringValue": "java"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "intValue": 0,
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "intValue": 0,
+              "stringValue": "1.35.0"
+            }
+          }
+        ]
+      },
+      "schemaUrl": "https://opentelemetry.io/schemas/1.23.1",
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "body": {
+                "stringValue": "HikariPool-1 - Start completed."
+              },
+              "flags": 0,
+              "observedTimeUnixNano": "1710426379134130000",
+              "severityNumber": 9,
+              "severityText": "INFO",
+              "spanId": "",
+              "timeUnixNano": "1710426379133000000",
+              "traceId": ""
+            }
+          ],
+          "scope": {
+            "name": "com.zaxxer.hikari.HikariDataSource"
+          }
+        },
+        {
+          "logRecords": [
+            {
+              "body": {
+                "stringValue": "HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect"
+              },
+              "flags": 0,
+              "observedTimeUnixNano": "1710426379525162000",
+              "severityNumber": 9,
+              "severityText": "INFO",
+              "spanId": "",
+              "timeUnixNano": "1710426379525142000",
+              "traceId": ""
+            }
+          ],
+          "scope": {
+            "name": "org.hibernate.dialect.Dialect"
+          }
+        }
+      ]
+    }
+  ]
+}

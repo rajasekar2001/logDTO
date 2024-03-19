@@ -1,0 +1,31 @@
+{
+
+  "createdTime": {
+    "$date": "2024-03-14T14:26:19.134Z"
+  },
+  "scopeLogs": [
+    {
+      "logRecords": [
+        {
+          "body": {
+            "stringValue": "HikariPool-1 - Start completed."
+          },
+          "flags": 0,
+          "observedTimeUnixNano": "1710426379134130000",
+          "severityNumber": 9,
+          "severityText": "INFO",
+          "spanId": "",
+          "timeUnixNano": "1710426379133000000",
+          "traceId": ""
+        }
+      ],
+      "scope": {
+        "name": "com.zaxxer.hikari.HikariDataSource"
+      }
+    }
+  ],
+  "serviceName": "vendor-srv-3",
+  "severityText": "INFO",
+  "spanId": "",
+  "traceId": ""
+}
